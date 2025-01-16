@@ -1,5 +1,5 @@
 {
-	"id": "658de226a05f375cadfac6b8e8f62b11",
+	"id": "9cd53c7905bfd839644ef94eaa550fe5",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.26",
 	"solcLongVersion": "0.8.26+commit.8a97fa7a",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"contracts/MarketplaceBuku.sol": {
-				"content": ""
+				"content": "// SPDX-License-Identifier= MIT\r\n\r\n"
 			}
 		},
 		"settings": {
@@ -75,7 +75,7 @@
 					"id": 1,
 					"nodeType": "SourceUnit",
 					"nodes": [],
-					"src": "0:0:0"
+					"src": "35:0:0"
 				},
 				"id": 0
 			}
