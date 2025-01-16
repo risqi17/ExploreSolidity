@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "semuaBuku",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "namaBuku",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hargaBuku",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_hargaBuku",
+						"type": "uint256"
+					}
+				],
+				"name": "tambahBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MarketplaceBuku.sol": "marketplaceBuku"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MarketplaceBuku.sol": {
+			"keccak256": "0x61d98803985ed934cbd125b907e942e6e354659374e096b9e79a435bdd244401",
+			"urls": [
+				"bzz-raw://e2c9ee423aa221e4c8af12a9ecbaf6eb35b6c1eb8ccaa5409d6071f70b830c8b",
+				"dweb:/ipfs/QmXKavFv5m8tLSskwTBdZsmTUzpRsjXzp7TSpHxtytHrdN"
+			]
+		}
+	},
+	"version": 1
+}
